@@ -7,9 +7,7 @@
 
 // input
 //      arrar.string picture
-
 // A non-empty array of no-empty equal length SVGStringList.
-
 function addBorder(pictures) {
   let wall = "*".repeat(pictures[0].length + 2);
   pictures.unshift(wall);
@@ -20,5 +18,4 @@ function addBorder(pictures) {
   }
   return pictures;
 }
-
 console.log(addBorder(["abc", "ded"]));
