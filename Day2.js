@@ -8,14 +8,11 @@
 function sum(params1, params2) {
   return params1 + params2;
 }
-
 function sumAll(...params) {
   let result = 0;
-
   params.forEach((number) => {
     result += number;
   });
   return result;
 }
-
 console.log(sumAll(1,2,3,))
